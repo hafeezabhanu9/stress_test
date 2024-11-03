@@ -22,7 +22,7 @@ pipeline {
             echo 'Stress test completed successfully!'
         }
         failure {
-            echo 'Stress test failed.'
+            echo 'Stress test failed.' //failed
         }
     }
 }
