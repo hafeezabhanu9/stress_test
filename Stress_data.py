@@ -7,7 +7,7 @@ import logging
 import mysql.connector
 from mysql.connector import Error
 
-# Set up logging
+# Setup logging
 logging.basicConfig(filename='stress_test.log', level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
